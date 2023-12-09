@@ -1,0 +1,107 @@
+
+body {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex: 1 1 100vw;
+    justify-content: center;
+
+}
+
+#logo {
+    height: 100px;
+}
+
+nav {
+    flex-wrap: wrap;
+    flex: 1 1 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px; /* Ajuste este valor conforme necessário para obter a curvatura desejada */
+    width: 100px; /* Ajuste a largura conforme necessário */
+    text-align: center;
+}
+main {
+    flex: 1 1 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+article {
+    gap: 2px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+#divl {
+    display: flex;
+}
+
+#lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+
+
+.campi {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px; 
+    width: 100px; 
+    background-color: white;
+}
+
+#at2 {
+    width: 400px;
+    display: block;
+}
+
+h1, p {
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
+
+#titulo {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
